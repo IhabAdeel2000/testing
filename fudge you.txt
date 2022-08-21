@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>My first webpage</title>
+    </head>
+    <body bgcolor=pink>
+        <h1>My HTML page is ready</h1>
+        <br>
+        <p><font size-10 color = "red">HTML is used for web designing to display information on web page which we can easily share or access any where any time</font></p>
+        <h2><font size=3 color = hotpink face= arial>HTML contain all element and attributes</font></h2>
+        <address>
+            <a href="https://google.com.sa" target="blank">Google</a>
+        </address>
+        <br>
+        <p>This is<font color= black, size =6> going </font>to be real fun</p>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <p>Login</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Username: </td>
+                    <td>
+                        <input type="text" name="username" id="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password: 
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Login</button>
+                    </td>
+                    <td>
+                        <button>Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <br>
+
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        Registration Form.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Username: 
+                    </td>
+                    <td>
+                        <input type="text" name="newUsername" id="newUsername">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password: 
+                    </td>
+                    <td>
+                        <input type="password" name="newPassword" id="newPassword">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address: 
+                    </td>
+                    <td>
+                        <textarea name="address" id="address">
+
+                        </textarea> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        City: 
+                    </td>
+                    <td>
+                        <input type="text" name="city" id="city">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mobile Number: 
+                    </td>
+                    <td>
+                        <input type="number" id="mobile" name="mobile">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email ID: 
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                    <td>
+                        <button>Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
